@@ -1,0 +1,174 @@
+
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #111;
+    color: #fff;
+}
+
+header {
+    background-color: #222;
+    padding: 2px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo img {
+    width: 150px;
+    border-radius: 100px;
+}
+
+nav ul {
+    background: url('drogon.jpg') no-repeat center center/cover;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav .dropdown {
+    position: relative;
+}
+
+nav .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    min-width: 160px;
+    z-index: 1;
+}
+
+nav .dropdown:hover .dropdown-content {
+    display: block;
+}
+
+nav .dropdown-content li {
+    padding: 10px;
+}
+
+nav .dropdown-content li a {
+    color: white;
+}
+
+.hero {
+    background: url('descarga.jpg') no-repeat center center/cover;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero h1 {
+    font-size: 50px;
+    color: white;
+}
+
+.hero p {
+    font-size: 20px;
+    color: #fff;
+}
+
+.productos {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.productos h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.producto {
+    background-color: #333;
+    padding: 20px;
+    width: 250px;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.producto:hover {
+    transform: scale(1.05);
+}
+
+.producto img {
+    
+    width: 100%;
+    border-radius: 8px;
+}
+
+.producto h3 {
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.producto p {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #222;
+    padding: 20px;
+    text-align: center;
+}
+
+footer .redes-sociales a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+footer p {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+body {
+    font-family: sans-serif;
+    padding: 20px;
+    margin: 0;
+  }
+  
+  #zoom-bar {
+    position: fixed;
+    bottom: 10px;
+    right: 20px;
+    background: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 10px 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    z-index: 999;
+  }
+  
+  #zoomSlider {
+    width: 150px;
+  }
+  
+  #contenido {
+    transition: transform 0.3s ease;
+    transform-origin: top left;
+  }
